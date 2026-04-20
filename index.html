@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LuxNails — Мастер педикюра</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+    <!-- CURSOR -->
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- LOADER -->
+    <div id="loader">
+        <div class="loader-logo">LuxNails</div>
+        <div class="loader-line"></div>
+        <div class="loader-sub">Мастер по уходу за ногами</div>
+    </div>
+
+    <!-- NAV -->
+    <nav>
+        <a href="index.html" class="nav-logo">Lux<span>Nails</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О мастере</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="booking.html">Запись</a></li>
+        </ul>
+        <a href="booking.html" class="nav-book"><span class="nb-text">Записаться</span></a>
+        <button class="nav-burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-ornament"></div>
+
+        <div class="hero-content">
+            <p class="hero-eyebrow">✦ Профессиональный уход · Ташкент</p>
+            <h1 class="hero-title">
+                Красота<br>
+                начинается <em>с ног</em>
+            </h1>
+            <p class="hero-text">
+                Профессиональный педикюр, аппаратный маникюр и уход за ногтями.
+                Ваши ноги заслуживают лучшего — мягкость, здоровье, красота.
+            </p>
+            <div class="btn-group">
+                <a href="booking.html" class="btn-primary"><span>Записаться онлайн</span></a>
+                <a href="services.html" class="btn-outline">Смотреть услуги</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-mouse"></div>
+        </div>
+    </section>
+
+    <!-- INTRO CARDS -->
+    <section style="background:var(--white);">
+        <div style="max-width:1100px;margin:0 auto;">
+            <p class="section-label reveal">Почему выбирают нас</p>
+            <h2 class="section-title reveal">Что мы <em>предлагаем</em></h2>
+            <div class="section-line reveal"></div>
+
+            <div class="grid-3" style="margin-top:2.5rem;">
+                <div class="card reveal reveal-delay-1">
+                    <span class="card-icon">🌸</span>
+                    <h3 class="card-title">Нежный уход</h3>
+                    <p class="card-text">Каждая процедура выполняется с максимальным вниманием к коже и ногтям. Только
+                        профессиональные средства.</p>
+                </div>
+                <div class="card reveal reveal-delay-2">
+                    <span class="card-icon">🧴</span>
+                    <h3 class="card-title">Стерильность</h3>
+                    <p class="card-text">Все инструменты стерилизуются после каждого клиента. Ваша безопасность — наш
+                        приоритет.</p>
+                </div>
+                <div class="card reveal reveal-delay-3">
+                    <span class="card-icon">⏱️</span>
+                    <h3 class="card-title">Удобное время</h3>
+                    <p class="card-text">Запись онлайн в любое удобное время. Работаем без выходных, подстраиваемся под
+                        ваш график.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NUMBERS -->
+    <section style="background:var(--cream);">
+        <div style="max-width:900px;margin:0 auto;text-align:center;">
+            <p class="section-label reveal">Наш опыт</p>
+            <h2 class="section-title reveal" style="margin-bottom:3rem;">Говорят <em>цифры</em></h2>
+            <div class="grid-3">
+                <div class="stat-block reveal reveal-delay-1">
+                    <div class="stat-num"><span data-count="847">0</span>+</div>
+                    <div class="stat-label">Довольных клиентов</div>
+                </div>
+                <div class="stat-block reveal reveal-delay-2">
+                    <div class="stat-num"><span data-count="6">0</span></div>
+                    <div class="stat-label">Лет опыта</div>
+                </div>
+                <div class="stat-block reveal reveal-delay-3">
+                    <div class="stat-num"><span data-count="98">0</span>%</div>
+                    <div class="stat-label">Повторных записей</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ PREVIEW -->
+    <section style="background:var(--white);">
+        <div style="max-width:780px;margin:0 auto;">
+            <p class="section-label reveal">Вопрос — ответ</p>
+            <h2 class="section-title reveal">Частые <em>вопросы</em></h2>
+            <div class="section-line reveal"></div>
+
+            <div style="margin-top:2rem;">
+                <div class="faq-item reveal">
+                    <button class="faq-question">
+                        Как долго длится процедура педикюра?
+                        <span class="faq-arrow">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Стандартный педикюр занимает от 60 до 90 минут. Аппаратный педикюр — около 75 минут. Точное
+                        время зависит от состояния кожи и ногтей и согласовывается при записи.
+                    </div>
+                </div>
+
+                <div class="faq-item reveal reveal-delay-1">
+                    <button class="faq-question">
+                        Нужна ли предварительная запись?
+                        <span class="faq-arrow">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Да, предварительная запись обязательна — чтобы я могла выделить для вас достаточно времени.
+                        Записаться можно онлайн через форму на сайте, или написать мне в Telegram.
+                    </div>
+                </div>
+
+                <div class="faq-item reveal reveal-delay-2">
+                    <button class="faq-question">
+                        Какие средства вы используете?
+                        <span class="faq-arrow">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Использую только профессиональные средства брендов Sally Hansen, OPI, Essie и корейских марок.
+                        Все средства гипоаллергенные, без вредных компонентов.
+                    </div>
+                </div>
+
+                <div class="faq-item reveal reveal-delay-3">
+                    <button class="faq-question">
+                        Есть ли скидки для постоянных клиентов?
+                        <span class="faq-arrow">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Да! После 5-й процедуры вы получаете карту постоянного клиента со скидкой 10% на все услуги.
+                        Также действуют сезонные акции — следите за обновлениями.
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align:center;margin-top:2.5rem;" class="reveal">
+                <a href="about.html" class="btn-outline">Больше о мастере</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section style="background:var(--dark);padding:5rem 4vw;">
+        <div style="max-width:700px;margin:0 auto;text-align:center;" class="reveal">
+            <p style="font-size:3rem;margin-bottom:1rem;">🌙</p>
+            <p
+                style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.4rem,3vw,2rem);font-style:italic;color:var(--gold-light);line-height:1.5;margin-bottom:1.2rem;">
+                «Каждая женщина заслуживает, чтобы её ноги были красивыми и здоровыми»
+            </p>
+            <p style="font-size:0.72rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--muted);">— Камила,
+                мастер LuxNails</p>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section style="background:var(--cream);text-align:center;">
+        <div style="max-width:600px;margin:0 auto;" class="reveal">
+            <p class="section-label">Начните сегодня</p>
+            <h2 class="section-title">Запишитесь <em>онлайн</em></h2>
+            <p style="font-size:0.95rem;font-weight:300;color:var(--muted);line-height:1.8;margin-bottom:2rem;">
+                Заполните форму и я свяжусь с вами в течение часа для подтверждения удобного времени.
+            </p>
+            <a href="booking.html" class="btn-primary"><span>Записаться сейчас →</span></a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div>
+            <div class="footer-brand">LuxNails</div>
+            <div class="footer-tagline">Мастер педикюра · Ташкент</div>
+        </div>
+        <ul class="footer-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О мастере</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="booking.html">Запись</a></li>
+        </ul>
+        <div>
+            <p style="font-size:0.8rem;color:rgba(255,255,255,0.55);line-height:2;font-weight:300;">
+                📍 Ташкент<br>
+                📱 +998 XX XXX XX XX<br>
+                🕐 Пн–Вс: 9:00–20:00
+            </p>
+        </div>
+        <div class="footer-bottom">© 2025 LuxNails · Все права защищены</div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
