@@ -1953,3 +1953,6 @@ footer::before {
         transition-duration: 0.01ms !important;
     }
 }
+.span{
+    padding-left: 66px;
+}
