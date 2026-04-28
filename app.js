@@ -472,3 +472,16 @@ document.addEventListener('DOMContentLoaded', () => {
 let resizeTimer;
 window.addEventListener('resize', () => {
     clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+        // Close mobile menu on resize to desktop
+        if (window.innerWidth > 900) {
+            const menu = document.querySelector('.mobile-menu');
+            const burger = document.querySelector('.nav-burger');
+            if (menu && menu.classList.contains('open')) {
+                menu.classList.remove('open');
+                burger?.classList.remove('open');
+                document.body.style.overflow = '';
+            }
+        }
+    }, 200);
+}, { passive: true });          
